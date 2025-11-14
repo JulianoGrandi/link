@@ -86,10 +86,10 @@ body * {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
+  animation: voltando 0.3s;
 }
 .branco #button button {
-  left: initial;
-  right: 0;
+  animation:  indo 0.3s forwards;
 }
 
 #button span {
@@ -176,4 +176,23 @@ footer {
   .branco {
     --cor--fundo: url(./assets/bg-desktop-light.jpg);
   }
+}
+
+@keyframes indo  {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%
+  }
+}
+
+@keyframes voltando  {
+  from {
+    left: 50%
+  }
+  to {
+    left: 0;
+  }
+  
 }
