@@ -13,7 +13,7 @@
   // explorer
   "explorer.compactFolders": false,
   // workbench
-  "workbench.editor.enablePreview": true,
+  "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Omni",
 
